@@ -23,6 +23,14 @@ class Home extends Component{
             <View>
                 <Text>Home Component</Text>
                 <Profile/>
+
+                <TextInput
+                    testID={'username'}
+                    onChangeText={(text)=> this.change(text)}
+                    placeholder="Enter a username in the provided field"
+                >
+
+                </TextInput>
             </View>
         )
     }
