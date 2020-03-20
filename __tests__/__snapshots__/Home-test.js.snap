@@ -5,13 +5,10 @@ exports[`Home snapshot 1`] = `
   <Text>
     Home Component
   </Text>
-<<<<<<< HEAD
   <View>
     <Text>
       Profile Component
     </Text>
   </View>
-=======
->>>>>>> running the tests
 </View>
 `;
