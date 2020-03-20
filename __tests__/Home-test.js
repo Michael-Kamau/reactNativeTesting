@@ -5,10 +5,9 @@ import renderer from 'react-test-renderer'
 
 
 test('Home snapshot',()=>{
-    const snap= renderer.create.create(
+    const snap= renderer.create(
         <Home />
     ).toJSON();
-
 
     expect(snap).toMatchSnapshot();
 });
