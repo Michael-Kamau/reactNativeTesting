@@ -31,7 +31,7 @@ class Home extends Component {
         return (
             <View>
                 <Text>Home Component</Text>
-                <Profile/>
+                <Profile data="jest testing ..."/>
 
                 <TextInput
                     testID={'username'}
