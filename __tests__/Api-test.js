@@ -18,7 +18,7 @@ it('Api test case', async function () {
     // const response = await Users.all();
     // expect(response.Id).toBe(1);
 
-
+    jest.setTimeout(30000);
     const response = await Users.all();
     console.warn(response.movies[2].title);
     expect(response.movies[2].title).toEqual('The Matrix');
