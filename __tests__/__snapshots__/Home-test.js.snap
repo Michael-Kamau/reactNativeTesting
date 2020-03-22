@@ -7,8 +7,16 @@ exports[`Home snapshot 1`] = `
   </Text>
   <View>
     <Text>
-      Profile Component
+      jest testing ...
     </Text>
   </View>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Enter a username in the provided field"
+    rejectResponderTermination={true}
+    testID="username"
+    underlineColorAndroid="transparent"
+  />
 </View>
 `;

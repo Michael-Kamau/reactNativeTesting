@@ -1,6 +1,7 @@
 import 'react-native'
 import React from 'react'
 import Home from '../src/components/Home';
+import 'isomorphic-fetch';
 
 import renderer from 'react-test-renderer';
 
